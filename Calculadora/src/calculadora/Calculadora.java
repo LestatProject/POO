@@ -444,15 +444,15 @@ double operando1, operando2, resultado;
                     Pantalla.setText(Double.toString(resultado));
                     break;
                 case'-':
-                    resultado=operando1+operando2;
+                    resultado=operando1-operando2;
                     Pantalla.setText(Double.toString(resultado));
                     break;
                 case'*':
-                    resultado=operando1+operando2;
+                    resultado=operando1*operando2;
                     Pantalla.setText(Double.toString(resultado));
                     break;
                 case'/':
-                    resultado=operando1+operando2;
+                    resultado=operando1/operando2;
                     Pantalla.setText(Double.toString(resultado));
                     break; 
             }
